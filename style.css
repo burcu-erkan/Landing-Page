@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+body{
+    margin:0%;
+    line-height: 1.5;
+    font-family:    Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+
+    font-size: 1rem;
+}
+
+div#logo{
+   display: grid;
+   grid-template-columns: auto auto;
+ justify-content: space-around;
+   
+   background-color: white;
+   align-items: center;
+   margin-top: 0;
+  
+    
+}
+#logo a{
+    text-decoration: none;
+    color: black;
+  
+}
+
+
+.btn{
+    background-color:#007bff;
+    border:none;
+    border-radius:5px ;
+    color:white;
+   padding: 12px 8px;
+   width: 100px;
+   margin-right: 0;
+   
+}
+.btn:hover {
+   cursor: pointer;
+}
+
+
+ .showcase{
+    background: url(https://startbootstrap.github.io/startbootstrap-landing-page/img/bg-masthead.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:520px;
+    width: 100%;
+    margin:0;
+    padding: 0;
+    position: relative;
+   
+}
+
+.container{
+    max-width:1000px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+     padding-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    
+    
+    
+}
+.center{
+    font-size: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#buttons{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+ 
+   
+    
+
+}
+ input{
+    
+    border: 1px ;
+    border-radius: 5px;
+    width: 40%;
+    cursor: text;
+    margin: 10px; 
+    padding-left: 10px;
+    
+}
+ button{
+   width: 20%;
+    background-color: #007bff;
+    border: 1px;
+    border-radius: 5px;
+    margin: 10px; 
+    padding: 10px;
+    color: #fff;
+    font-size: 15px;
+    
+} 
+ 
+ .middle{
+
+display: flex;
+flex-direction: row;
+ text-align: center;
+
+} 
+
+
+#featuresicons .col {
+  margin-top:100px ;
+ width: 45%;
+ font-size: 20px;
+  margin-bottom: 50px;   
+}
+
+#featuresicons .col p{
+    font-size: 25px;
+}
+ #featuresicons .col i{
+    font-size: 70px;
+    color: #007bff;
+}
+
+#showcase2{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    
+    grid-template-rows: repeat(3, 400px);
+}
+
+
+.box2{
+    background-image: url("phone.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.box3{
+    background-image: url("screen.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.box6{
+    background-image: url("kid.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+  .texts{
+   padding: 20px  50px;
+  margin-top: 10%;
+ }   
+
+ #testimonials{
+ 
+    background-color:#f8f9fa;
+    height: 500px;
+    margin-top: 0;
+   
+}
+#testimonials .title p{
+   text-align: center;
+   margin-top:0;
+    font-size: 35px;
+    font-weight:bold;
+    width: 100%;
+    padding-top: 20px;
+    
+}
+
+
+.testimonial img{
+    border-radius: 50%;
+}
+ 
+.testimonial{
+    float: left;
+    text-align: center;
+    width: 33.3%;
+    font-size: 16px;
+
+}
+.text{
+    padding-top: 5px;
+   text-align: center;
+    width: 100%;
+    line-height: normal;
+    margin-top: 0px;
+    
+}
+.text h3{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+.text p{
+    font-size: 20px;
+    margin: 0px;
+    padding-bottom: 10px;
+  
+}
+.sd{
+    position: absolute;
+}
+.showcase2{
+    background: url(https://startbootstrap.github.io/startbootstrap-landing-page/img/bg-masthead.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+     height:320px;
+    width: 100%;
+  margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+  
+    clear: both;
+}
+.showcase2 .container{
+    padding-top: 40px;
+}
+
+ul li{
+    display: inline;
+    float: left;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+li a{
+    text-decoration: none;
+    color: #007bff;
+}
+
+nav {
+    float: left;
+    line-height: .5;
+    margin-bottom: 70px;
+    margin-left:40px;
+    
+}
+nav p{
+    margin-left: 42px;
+    font-size: 15px;
+    color:gray;
+}
+
+.icons i{
+    float: right;
+    font-size: 25px;
+    color: #007bff;
+    margin-right: 40px;
+    margin-bottom: 70px;
+}
+br{
+    clear: both;
+}
+
+footer{
+    padding-top: 40px;
+    
+    margin-bottom: 0;
+    bottom: 0;
+   
+ 
+}
+
+.clear{
+    clear: both;
+}
+
+@media screen and (max-width:768px){
+    body{
+       
+        margin: auto;
+    }
+
+    .showcase .center{
+        font-size: 33px;
+        text-align: center;
+      
+
+        
+    }
+    .showcase2 .center{
+        font-size: 28px;
+        text-align: center;
+        padding: 15px;
+      
+
+        
+    }
+    .container{
+        flex-direction: column;
+        padding-top: 40%;
+        text-align: center;
+        
+    }
+    #buttons {
+        
+        flex-direction: column;
+        margin-bottom: 90px;
+       
+    }
+
+  
+    #buttons input{
+        padding: 10px 0;
+       width: 90%;
+        padding-left: 10px;
+      
+    }
+    #buttons  button{
+        margin-top: 0;
+        width: 93%;
+        padding: 10px 0;
+      
+    }
+    
+     #featuresicons .col{
+         width: 100%;
+         margin-top: 50px;
+        
+     }
+     .middle{
+        flex-direction: column;
+
+     }
+
+    #showcase2{
+        grid-template-columns: auto;
+
+    }
+    div.box1{
+        order:2;
+    }
+  div.box2{
+        order:1;
+    }
+    div.box3{
+        order:3;
+    }
+  div.box4{
+        order:4;
+    }
+
+   div.box6{
+        order:5;
+    }
+  div.box5{
+        order:6;
+    } 
+
+    
+
+    #showcase2 .text{
+        text-align: start;
+      
+    }
+    .showcase2{
+        clear: right;
+    }
+    #testimonials{
+        clear: right;
+        height: 100%;
+    }
+
+     .testimonial{
+         width: 100%;
+         float: none;
+         text-align: center;
+         margin: 0;
+         padding: 0;
+     }
+     #testimonials .title{
+        
+        font-size: 25px;
+        padding-top: 20px;
+        padding-left: 20px;
+        
+     }
+     .text p{
+        width: 80%;
+        padding: 20px;
+        
+     }
+
+    footer{
+          display:flex;
+         flex-direction: column;
+         text-align: center;
+         
+    }
+     footer nav ul li{
+        text-align: center;
+        line-height: 1.5;
+
+
+     }
+
+     footer nav p{
+         text-align: center;
+         margin: auto;
+     }
+
+     .icons{
+        justify-self: center;
+        margin: auto;
+     }
+
+
+
+}
+
+
+
+
+
+
+
